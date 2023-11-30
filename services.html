@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Services - Afghani Clothes</title>
+
+   <link rel="shortcut icon" href="/images/favicon_io/favicon-32x32.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+
+    <a class="navbar-brand" href="index.html">
+      <img src="./images/ks1.png" alt="AfghaniClothesLogo" width="120px">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <!-- Toggler & Links -->
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <form style="height: 55px; width: 450px;" class="my-2 my-lg-0 mx-auto d-none d-md-flex">
+        <input name="q" id="q" style="opacity: 70%; border: 1px solid green;" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button style=" color:#c65032; margin-left: 3px;" class="btn btn-outline-success  my-2 my-sm-0" onclick="handleSearch(event)" type="submit">Search</button>
+      </form>
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+        </li>
+
+
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Explore
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Traditional Dresses</a>
+            <a class="dropdown-item" href="#">Accessories</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Special Offers</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+  </div>
+</nav>
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 m-auto text-center">
+          <h1>Our Services</h1>
+          <p>Dedicated to exceeding customer expectations</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Services Section -->
+
+  <section class="services py-5">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-4 mb-4">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <i class="fas fa-truck fa-3x text-secondary mb-3"></i>
+              <h3>Delivery Services</h3>
+              <p>At Khaista Style, we see each customer interaction as an opportunity to build lasting relationships through excellent service. Our team is always ready to assist you with orders, returns, questions about sizing or fabrics, outfit styling advice, and anything else you need.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <i class="fas fa-palette fa-3x text-secondary mb-3"></i>
+              <h3>Custom Tailoring</h3>
+              <p>Experience the luxury of custom-tailored Afghan clothing at Khaista Style. Our skilled artisans and tailors are dedicated to creating outfits that perfectly fit your style and preferences. From traditional Afghan designs to modern trends, we can bring your vision to life.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <i class="fas fa-gift fa-3x text-secondary mb-3"></i>
+              <h3>Gift Cards</h3>
+              <p>Share the joy of Afghan fashion with your loved ones through our Khaista Style Gift Cards. Perfect for special occasions, these gift cards allow recipients to choose their favorite Afghan clothing items from our wide range of collections. Give the gift of style and cultural elegance!</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="d-flex justify-content-center align-items-center p-5">
+    <img id="randomPhoto" src="https://source.unsplash.com/random" alt="" style="height: 80vh; object-fit: contain; ">
+  </div>
+
+  <!-- Footer -->
+  <footer class=" py-5">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-4 mb-4">
+          <h5>About Khaista Style</h5>
+          <p>
+            Khaista Style sells traditional Afghani dresses, coats, and accessories for women. Our mission is to preserve Afghan heritage and empower local artisans by providing an international platform for their work.
+          </p>
+        </div>
+
+        <div class="col-md-2 mb-4">
+          <h5 class="fw-bold">Links</h5>
+          <ul class="list-unstyled d-flex flex-column gap-2">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="index.html" class="ls-widest">Shop</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2 mb-4">
+          <h5 class="fw-bold">Help</h5>
+          <ul class="list-unstyled d-flex flex-column gap-2">
+            <li>
+              <a class="text-decoration-none" href="#">FAQ</a>
+            </li>
+            <li>
+              <a href="#">Shipping</a>
+            </li>
+            <li>
+              <a href="#">Returns</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <h5>Sign Up For Emails</h5>
+          <p>Get 10% off your first order when you subscribe!</p>
+          <form>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Email Address">
+              <div class="input-group-append">
+                <button class="btn btn-primary">Sign Up</button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="bg-secondary text-white text-center py-3">
+      Copyright © 2023 Khaista Style
+    </div>
+
+  </footer>
+
+ 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

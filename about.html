@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>About - Khaista Style</title>
+
+   <link rel="shortcut icon" href="/images/favicon_io/favicon-32x32.png" type="image/x-icon">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   <link rel="stylesheet" href="styles.css">
+
+  <style>
+    .about-header {
+      background: url('header-bg.jpg');
+      padding: 100px 0;
+      text-align: center;
+      color: #fff;
+    }
+  </style>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="index.html">
+        <img src="./images/ks1.png" alt="AfghaniClothesLogo" width="120px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <!-- Toggler & Links -->
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <form style="height: 55px; width: 450px;" class="my-2 my-lg-0 mx-auto d-none d-md-flex">
+          <input name="q" id="q" style="opacity: 70%; border: 1px solid green;" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button style=" color:#c65032; margin-left: 3px;" class="btn btn-outline-success  my-2 my-sm-0" onclick="handleSearch(event)" type="submit">Search</button>
+        </form>
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Explore
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Traditional Dresses</a>
+              <a class="dropdown-item" href="#">Accessories</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Special Offers</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+    </div>
+  </nav>
+
+  <!-- About Header -->
+  <header class="about-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h1 class="text-dark fw-bold">Our Story</h1>
+          <p class="text-dark">Proudly sharing the beauty of Afghan culture through clothing since 1990.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Content -->
+  <section class="about-content py-5">
+    <div class="container">
+
+      <!-- About Text -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h2>Honoring Our Roots</h2>
+          <p>Our founder Ali started this company in 1990 to share the rich cultural heritage of Afghanistan through traditional clothing. After moving to the US, Ali missed the vibrant colors and luxurious fabrics of his homeland. He began importing high-quality Afghan textiles and clothing to offer a touch of home to fellow immigrants.</p>
+          <p>Over the years, we've grown from a small startup to an internationally recognized Afghan fashion brand. But our mission remains the same - honoring the artistry of Afghanistan's weavers, tailors, and designers to bring you authentic cultural treasures.</p>
+        </div>
+
+        <div class="col-lg-6">
+          <img src="./images/bg.jpg" alt="Founder with Afghan clothes" class="img-fluid rounded">
+        </div>
+
+      </div>
+
+      <ul class="timeline mt-5">
+        <li>
+          <p>Founded in 1990</p>
+        </li>
+        <li>
+          <p>Expanded internationally in early 2000s</p>
+        </li>
+
+      </ul>
+
+    </div>
+  </section>
+
+  <footer class=" py-5">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-4 mb-4">
+          <h5>About Khaista Style</h5>
+          <p>
+            Khaista Style sells traditional Afghani dresses, coats, and accessories for women. Our mission is to preserve Afghan heritage and empower local artisans by providing an international platform for their work.
+          </p>
+        </div>
+
+        <div class="col-md-2 mb-4">
+          <h5 class="fw-bold">Links</h5>
+          <ul class="list-unstyled d-flex flex-column gap-2">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#" class="ls-widest">Shop</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2 mb-4">
+          <h5 class="fw-bold">Help</h5>
+          <ul class="list-unstyled d-flex flex-column gap-2">
+            <li>
+              <a class="text-decoration-none" href="#">FAQ</a>
+            </li>
+            <li>
+              <a href="#">Shipping</a>
+            </li>
+            <li>
+              <a href="#">Returns</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <h5>Sign Up For Emails</h5>
+          <p>Get 10% off your first order when you subscribe!</p>
+          <form>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Email Address">
+              <div class="input-group-append">
+                <button class="btn btn-primary">Sign Up</button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="bg-secondary text-white text-center py-3">
+      Copyright © 2023 Khaista Style
+    </div>
+
+  </footer>
+
+  <!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

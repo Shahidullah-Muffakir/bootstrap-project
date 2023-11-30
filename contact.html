@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Contact - Khaista Style</title>
+
+   <link rel="shortcut icon" href="/images/favicon_io/favicon-32x32.png" type="image/x-icon">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   <link rel="stylesheet" href="styles.css">
+
+  <style>
+    #map {
+      height: 400px;
+    }
+    .header-margin {
+      margin-top: 70px !important;
+    }
+  </style>
+  <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="index.html">
+        <img src="./images/ks1.png" alt="AfghaniClothesLogo" width="120px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <!-- Toggler & Links -->
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <form style="height: 55px; width: 450px;" class="my-2 my-lg-0 mx-auto d-none d-md-flex">
+          <input name="q" id="q" style="opacity: 70%; border: 1px solid green;" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button style=" color:#c65032; margin-left: 3px;" class="btn btn-outline-success  my-2 my-sm-0" onclick="handleSearch(event)" type="submit">Search</button>
+        </form>
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Explore
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Traditional Dresses</a>
+              <a class="dropdown-item" href="#">Accessories</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Special Offers</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+    </div>
+  </nav>>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 m-auto  header-margin text-center">
+          <h1>Contact Us</h1>
+          <p>We'd love to hear from you! Get in touch today.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact py-5">
+    <div class="container">
+      <div class="row">
+
+        <!-- Contact Info -->
+        <div class="col-md-6">
+          <h3>Get in Touch</h3>
+          <p>We'd love to hear from you! Whether you have a question about an order, want to learn more about our artisans and mission, or just feel like saying hello - our team is ready to connect.</p>
+
+          <ul class="contact-info list-unstyled">
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              123 Main St, Mazar-i-sharif, Afghanistan
+            </li>
+            <li>
+              <i class="fas fa-phone"></i>
+              (555) 555-1234
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i>
+              contact@khaistastyle.com
+            </li>
+          </ul>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="col-md-6">
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+            </div>
+            <button style=" color:#f6e9d7; background-color: #5f2c3e" class="btn btn-block">Send</button>
+          </form>
+        </div>
+
+        <!-- Map -->
+        <div class="w-100 m-2">
+          <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102361.60479742925!2d67.06552096812919!3d36.703340041533004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f34b8a3605314bd%3A0xb27a5e1a6c1fcf71!2sMazar-i-Sharif%2C%20Afghanistan!5e0!3m2!1sen!2sin!4v1700293349882!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- Footer -->
+  <footer class=" py-5">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-4 mb-4">
+          <h5>About Khaista Style</h5>
+          <p>
+            Khaista Style sells traditional Afghani dresses, coats, and accessories for women. Our mission is to preserve Afghan heritage and empower local artisans by providing an international platform for their work.
+          </p>
+        </div>
+
+        <div class="col-md-2 mb-4">
+          <h5 class="fw-bold">Links</h5>
+          <ul class="list-unstyled d-flex flex-column gap-2">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#" class="ls-widest">Shop</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2 mb-4">
+          <h5 class="fw-bold">Help</h5>
+          <ul class="list-unstyled d-flex flex-column gap-2">
+            <li>
+              <a class="text-decoration-none" href="#">FAQ</a>
+            </li>
+            <li>
+              <a href="#">Shipping</a>
+            </li>
+            <li>
+              <a href="#">Returns</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <h5>Sign Up For Emails</h5>
+          <p>Get 10% off your first order when you subscribe!</p>
+          <form>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Email Address">
+              <div class="input-group-append">
+                <button class="btn btn-primary">Sign Up</button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="bg-secondary text-white text-center py-3">
+      Copyright © 2023 Khaista Style
+    </div>
+
+  </footer>
+
+  <!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
